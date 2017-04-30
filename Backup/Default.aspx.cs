@@ -9,31 +9,29 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            new DefaultPresenter(this);           
+            new DefaultPresenter(this);
+           
         }
 
         #region Publish Events
         public event EventHandler<ShowTextEventArgs> ViewShowText;
 
-
         protected void btnShowText_Click(object sender, EventArgs e)
         {
-            var handler = ViewShowText;
-            if (handler != null)
+            OnShowTextViewEvent();
+        }
+        
+        protected void OnShowTextViewEvent()
+        {
+            if (ViewShowText != null)
             {
-                handler(this, new ShowTextEventArgs(TxtText1));
+                ViewShowText(this, new ShowTextEventArgs(SomeText));
             }
         }
-               
+        
         #endregion
         
         #region IDefaultView Implementation
-
-        public string TxtText1
-        {
-            get { return txtText1.Text; }
-            set { txtText1.Text = value; }
-        }
 
         public string SomeText
         {

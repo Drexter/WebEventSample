@@ -18,3 +18,8 @@ C:\Projects\DotNet\EventsSample\WebApplication1\bin\WebApplication1.pdb
 C:\Projects\DotNet\EventsSample\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\DotNet\EventsSample\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Projects\DotNet\EventsSample\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Projects\WebEventSample\bin\WebApplication1.dll
+C:\Projects\WebEventSample\bin\WebApplication1.pdb
+C:\Projects\WebEventSample\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Projects\WebEventSample\obj\Debug\WebApplication1.dll
+C:\Projects\WebEventSample\obj\Debug\WebApplication1.pdb
